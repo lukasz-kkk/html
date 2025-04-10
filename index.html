@@ -2,24 +2,8 @@
 <html>
 <head>
     <title>Example</title>
-    <script>
-        // Unikalny identyfikator twojej strony
-        const namespace = 'lukasz-kkk';
-        const key = 'moja-strona-testowa';
-
-        function updateCounter() {
-            fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById('counter').innerText = data.value;
-                });
-        }
-
-        window.onload = updateCounter;
-    </script>
 </head>
 <body>
-    <p>This is an example of a simple HTML page with one paragraph.</p>
-    <p>Liczba wejść na stronę: <span id="counter">0</span></p>
+    <p>Liczba wejść na stronę: 1404</p>
 </body>
 </html>
